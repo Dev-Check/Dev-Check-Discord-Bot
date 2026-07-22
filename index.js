@@ -255,7 +255,7 @@ client.on("messageCreate", async (msg) => {
             }, 2000);
 
             setTimeout(async () => {
-                await msg.reply("any rap nigga a free throw");
+                await msg.reply("any rap ***** a free throw");
                 conversationStates[msg.author.id] = 'waiting_for_man_down';
                 // Wait for user input to continue
                 const filter = response => response.author.id === msg.author.id;
@@ -271,7 +271,7 @@ client.on("messageCreate", async (msg) => {
                     if (conversationStates[msg.author.id] === 'waiting_for_man_down') {
                         msg.reply('call an amberlamps tell him "breathe bro"');
                         setTimeout(() => { 
-                            msg.reply("nail a nigga to the cross");
+                            msg.reply("nail a ***** to the cross");
                         }, 1000);
 
                         setTimeout(() => {
@@ -307,7 +307,7 @@ client.on("messageCreate", async (msg) => {
     
     if (stripped === "beat yo ass and hide the bible if god watching") {
         setTimeout(async () => {
-            await msg.reply(`sometimes you gotta pop out and show niggas ${flex}`);
+            await msg.reply(`sometimes you gotta pop out and show ****** ${flex}`);
         }, 1000);
 
         setTimeout(async () => {
